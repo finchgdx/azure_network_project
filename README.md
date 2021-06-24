@@ -101,9 +101,10 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
+- git clone https://github.com/finchgdx/azure_network_project.git
 - Copy the elk_install.yml file to /etc/ansible/roles/elk_install.yml
 - Update the hosts file to include the attributes for your elk configuration and include your destination ip of the ELK server
 - Run the playbook, and navigate to http://20.85.234.201:5601/app/kibana to check that the installation worked as expected.
 
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the 
+
